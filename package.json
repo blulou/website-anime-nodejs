@@ -1,0 +1,24 @@
+{
+  "name": "website-anime-nodejs",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene los fundamentos para la implementación de una página web de streaming de contenido Anime. Para laelaboración de este se hacen uso de tecnologías como Node JS, Express, MongoDBentre otras cuyo propósito es demostrar la capacidad que estas tecnologías puedenllegar a alcanzar frente a otras.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB",
+    "Website",
+    "Anime",
+    "Express"
+  ],
+  "author": "Luis Fernández",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0",
+    "nodemon": "^1.14.3"
+  }
+}
